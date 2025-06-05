@@ -1,0 +1,45 @@
+.tabla-empleados {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: var(--colorWhite);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tabla-empleados th, .tabla-empleados td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-empleados th {
+    background-color: var(--color3); /* usa el color amarillo definido en tus variables */
+    color: var(--colorWhite);
+    font-weight: bold;
+}
+
+.tabla-empleados tr:nth-child(even) {
+    background-color: #f9f9f9; /* alternar colores de filas */
+}
+
+.tabla-empleados tr:hover {
+    background-color: #eaeaea; /* color al pasar el mouse */
+}
+
+/* botón crear empleado */
+.add-empleado {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: var(--color3);
+    color: var(--colorWhite);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.add-empleado:hover {
+    background-color: var(--color2);
+}

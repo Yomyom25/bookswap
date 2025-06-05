@@ -1,0 +1,132 @@
+:root {
+    --color1: #ccc;
+    --colorWhite: #ffff;
+    --colorBlack: #202131;
+    --colorHover: #3D3D3D;
+    --color2: #011F26;
+    --color3: #025E73;
+    --color4: #7c2020;
+    --color5: #f2f4f6;
+    --color6: #f7831e;
+    --color7: #ffcc00;
+    --color8: #098839;
+    --color9: #84B026;
+}
+
+
+/* estilos generales */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.div-1200px {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.div-login {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--colorWhite);
+    text-align: center;
+}
+
+/* logo */
+.img-logo {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+/* formulario de login */
+.background_login h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-login {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: var(--color3);
+    color: white;
+}
+
+.btn-registro{
+    padding: 10px 135px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: var(--color8);
+    color: var(--colorWhite);
+}
+
+.registro {
+    background-color: var(--color8);
+    color: white;
+}
+
+.registro:hover, .btn-registro:hover {
+    background-color: #445d0d;
+}
+
+.btn-login:hover {
+    background-color: var(--color2);
+}
+
+
+/* mensaje de error */
+.erroruser {
+    color: #ff0000;
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.letra-footer {
+    color: var(--color3);
+    font-style: italic;
+    text-decoration: none;
+}
+
+.text-small {
+    color: var(--color2);
+    font-size: 12px;
+    margin: 20px 0;
+}
+
